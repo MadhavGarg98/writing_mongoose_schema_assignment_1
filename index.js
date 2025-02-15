@@ -1,5 +1,6 @@
 const express = require('express');
 const { resolve } = require('path');
+const User = require('./model/schema');
 
 const app = express();
 const port = 3010;
